@@ -1,0 +1,58 @@
+{
+  "id": "kevlar_scarf",
+  "type": "ITEM",
+  "subtypes": [
+    "ARMOR"
+  ],
+  "category": "armor",
+  "symbol": "[",
+  "color": "black",
+  "name": {
+    "str": "Kevlar scarf",
+    "str_pl": "Kevlar scarves"
+  },
+  "description": "A long, black scarf reinforced with kevlar and fur. Not exactly practical, but pretty stylish.",
+  "price": "50 USD",
+  "material": [
+    "fur",
+    "kevlar"
+  ],
+  "weight": "130 g",
+  "volume": "800 ml",
+  "use_action": {
+    "type": "transform",
+    "msg": "You loosen your %s.",
+    "target": "kevlar_scarf_loose",
+    "menu_text": "Loosen"
+  },
+  "flags": [
+    "OUTER",
+    "STURDY",
+    "WATERPROOF"
+  ],
+  "looks_like": "scarf_fur_long",
+  "warmth": 50,
+  "environmental_protection": 3,
+  "material_thickness": 3,
+  "armor": [
+    {
+      "encumbrance": 8,
+      "coverage": 80,
+      "breathability": "POOR",
+      "cover_vitals": 90,
+      "covers": [
+        "mouth"
+      ]
+    },
+    {
+      "encumbrance": 2,
+      "coverage": 100,
+      "breathability": "POOR",
+      "cover_vitals": 75,
+      "covers": [
+        "head"
+      ],
+      "specifically_covers": [ "head_throat" ]
+    }
+  ]
+}

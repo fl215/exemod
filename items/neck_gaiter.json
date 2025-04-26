@@ -1,0 +1,37 @@
+[
+  {
+    "id": "kevlar_neck_gaiter",
+    "type": "ITEM",
+    "subtypes": [
+      "ARMOR"
+    ],
+    "category": "armor",
+    "name": "Kevlar neck gaiter",
+    "description": "A thick band made out of kevlar that covers all of your neck to protect it and keep it warm.",
+    "weight": "30 g",
+    "volume": "10 ml",
+    "price": "200 USD",
+    "material": [ "kevlar" ],
+    "symbol": "=",
+    "color": "black",
+    "warmth": 20,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [
+      "WATERPROOF",
+      "STURDY",
+      "NORMAL"
+    ],
+    "armor": [
+      {
+        "encumbrance": 3,
+        "breathability": "POOR",
+        "coverage": 100,
+        "covers": [
+          "head"
+        ],
+        "specifically_covers": [ "head_throat" ]
+      }
+    ]
+  }
+]

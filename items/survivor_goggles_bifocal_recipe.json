@@ -1,0 +1,90 @@
+{
+  "result": "survivor_goggles_bifocal",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_HEAD",
+  "skill_used": "fabrication",
+  "difficulty": 5,
+  "skills_required": [
+    "tailor",
+    4
+  ],
+  "time": "1 h",
+  "autolearn": true,
+  "using": [
+    [
+      "adhesive",
+      1
+    ],
+    [
+      "sewing_aramids",
+      10
+    ]
+  ],
+  "qualities": [
+    {
+      "id": "LEATHER_AWL",
+      "level": 1
+    },
+    {
+      "id": "FABRIC_CUT",
+      "level": 2
+    }
+  ],
+  "components": [
+    [
+      [
+        "goggles_ski",
+        1
+      ],
+      [
+        "sunglasses",
+        1
+      ],
+      [
+        "fitover_sunglasses",
+        1
+      ]
+    ],
+    [
+      [
+        "polycarbonate_chunk",
+        4
+      ],
+      [
+        "glasses_bal",
+        2
+      ]
+    ],
+    [
+      [
+        "glasses_bifocal",
+        1
+      ]
+    ],
+    [
+      [
+        "leather",
+        3
+      ]
+    ],
+    [
+      [
+        "sheet_kevlar_layered",
+        2
+      ]
+    ]
+  ],
+  "proficiencies": [
+    {
+      "proficiency": "prof_plasticworking"
+    },
+    {
+      "proficiency": "prof_leatherworking_basic"
+    },
+    {
+      "proficiency": "prof_polymerworking"
+    }
+  ]
+}

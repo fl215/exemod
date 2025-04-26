@@ -1,0 +1,48 @@
+{
+  "id": "kevlar_scarf_headwrap",
+  "type": "ITEM",
+  "subtypes": [
+    "ARMOR"
+  ],
+  "category": "armor",
+  "symbol": "[",
+  "color": "black",
+  "name": {
+    "str": "Kevlar scarf (headwrap)",
+    "str_pl": "Kevlar scarves (headwrap)"
+  },
+  "description": "A long, black scarf reinforced with kevlar and fur. Not exactly practical, but pretty stylish.",
+  "price": "50 USD",
+  "material": [
+    "fur",
+    "kevlar"
+  ],
+  "weight": "130 g",
+  "volume": "800 ml",
+  "use_action": {
+    "type": "transform",
+    "msg": "You lower your %s.",
+    "target": "kevlar_scarf",
+    "menu_text": "Lower"
+  },
+  "flags": [
+    "OUTER",
+    "STURDY",
+    "WATERPROOF"
+  ],
+  "looks_like": "scarf_fur_long",
+  "warmth": 50,
+  "environmental_protection": 3,
+  "material_thickness": 3,
+  "armor": [
+    {
+      "encumbrance": 9,
+      "coverage": 90,
+      "breathability": "POOR",
+      "covers": [
+        "mouth",
+        "head"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "exemod",
+    "name": "Execute's Additions",
+    "authors": [ "Execute" ],
+    "description": "adds some cool new additions to the game.",
+    "category": "content",
+    "version": "1.0.0"
+  }
+]
