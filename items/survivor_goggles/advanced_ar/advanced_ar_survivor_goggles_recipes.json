@@ -9,43 +9,13 @@
     "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
-    "using": [
-      [
-        "soldering_standard",
-        25
-      ]
-    ],
+    "using": [ [ "soldering_standard", 25 ] ],
     "components": [
-      [
-        [
-          "glasses_bifocal",
-          1
-        ]
-      ],
-      [
-        [
-          "ar_glasses_advanced",
-          1
-        ]
-      ],
-      [
-        [
-          "goggles_nv",
-          1
-        ]
-      ],
-      [
-        [
-          "goggles_ir",
-          1
-        ]
-      ],
-      [
-        [
-          "survivor_goggles",
-          1
-        ]
-      ]
+      [ [ "glasses_bifocal", 1 ] ],
+      [ [ "ar_glasses_advanced", 1 ] ],
+      [ [ "goggles_nv", 1 ] ],
+      [ [ "goggles_ir", 1 ] ],
+      [ [ "survivor_goggles", 1 ] ]
     ]
   },
   {
@@ -59,37 +29,12 @@
     "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
-    "using": [
-      [
-        "soldering_standard",
-        25
-      ]
-    ],
+    "using": [ [ "soldering_standard", 25 ] ],
     "components": [
-      [
-        [
-          "survivor_goggles_corrective",
-          1
-        ]
-      ],
-      [
-        [
-          "ar_glasses_advanced",
-          1
-        ]
-      ],
-      [
-        [
-          "goggles_nv",
-          1
-        ]
-      ],
-      [
-        [
-          "goggles_ir",
-          1
-        ]
-      ]
+      [ [ "survivor_goggles_corrective", 1 ] ],
+      [ [ "ar_glasses_advanced", 1 ] ],
+      [ [ "goggles_nv", 1 ] ],
+      [ [ "goggles_ir", 1 ] ]
     ]
   },
   {
@@ -103,37 +48,12 @@
     "difficulty": 1,
     "time": "5 m",
     "autolearn": true,
-    "using": [
-      [
-        "soldering_standard",
-        25
-      ]
-    ],
+    "using": [ [ "soldering_standard", 25 ] ],
     "components": [
-      [
-        [
-          "glasses_bifocal",
-          1
-        ]
-      ],
-      [
-        [
-          "ar_survivor_goggles",
-          1
-        ]
-      ],
-      [
-        [
-          "goggles_nv",
-          1
-        ]
-      ],
-      [
-        [
-          "goggles_ir",
-          1
-        ]
-      ]
+      [ [ "glasses_bifocal", 1 ] ],
+      [ [ "ar_survivor_goggles", 1 ] ],
+      [ [ "goggles_nv", 1 ] ],
+      [ [ "goggles_ir", 1 ] ]
     ]
   },
   {

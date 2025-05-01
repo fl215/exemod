@@ -6,56 +6,24 @@
   "subcategory": "CSC_ARMOR_HEAD",
   "skill_used": "tailor",
   "difficulty": 7,
-  "skills_required": [
-    "fabrication",
-    3
-  ],
+  "skills_required": [ "fabrication", 3 ],
   "time": "5 h",
   "autolearn": true,
-  "using": [
-    [
-      "sewing_kevlar",
-      15
-    ]
-  ],
-  "qualities": [
-    {
-      "id": "FABRIC_CUT",
-      "level": 2
-    }
-  ],
+  "using": [ [ "sewing_kevlar", 15 ] ],
+  "qualities": [ { "id": "FABRIC_CUT", "level": 2 } ],
   "components": [
     [
-      [
-        "fur",
-        8
-      ],
-      [
-        "tanned_pelt",
-        1
-      ],
-      [
-        "scarf_fur_long",
-        1
-      ]
+      [ "fur", 8 ],
+      [ "tanned_pelt", 1 ],
+      [ "scarf_fur_long", 1 ]
     ],
     [
-      [
-        "sheet_kevlar",
-        2
-      ],
-      [
-        "sheet_kevlar_patchwork",
-        2
-      ]
+      [ "sheet_kevlar", 2 ],
+      [ "sheet_kevlar_patchwork", 2 ]
     ]
   ],
   "proficiencies": [
-    {
-      "proficiency": "prof_furriery"
-    },
-    {
-      "proficiency": "prof_polymerworking"
-    }
+    { "proficiency": "prof_furriery" },
+    { "proficiency": "prof_polymerworking" }
   ]
 }

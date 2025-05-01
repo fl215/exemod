@@ -27,9 +27,7 @@
         "encumbrance": 2,
         "breathability": "AVERAGE",
         "coverage": 100,
-        "covers": [
-          "head"
-        ],
+        "covers": [ "head" ],
         "specifically_covers": [ "head_throat" ]
       }
     ]

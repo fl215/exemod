@@ -8,24 +8,9 @@
   "difficulty": 1,
   "time": "2 m",
   "autolearn": true,
-  "using": [
-    [
-      "soldering_standard",
-      1
-    ]
-  ],
+  "using": [ [ "soldering_standard", 1 ] ],
   "components": [
-    [
-      [
-        "ar_glasses_advanced",
-        1
-      ]
-    ],
-    [
-      [
-        "survivor_goggles",
-        1
-      ]
-    ]
+    [ [ "ar_glasses_advanced", 1 ] ],
+    [ [ "survivor_goggles", 1 ] ]
   ]
 }

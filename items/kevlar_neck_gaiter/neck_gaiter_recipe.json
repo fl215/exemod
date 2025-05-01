@@ -8,30 +8,15 @@
   "difficulty": 3,
   "time": "1 h 30 m",
   "autolearn": true,
-  "using": [
-    [
-      "sewing_kevlar",
-      5
-    ]
-  ],
+  "using": [ [ "sewing_kevlar", 5 ] ],
   "components": [
     [
-      [
-        "sheet_kevlar",
-        4
-      ],
-      [
-        "sheet_kevlar_patchwork",
-        4
-      ]
+      [ "sheet_kevlar", 4 ],
+      [ "sheet_kevlar_patchwork", 4 ]
     ]
   ],
   "proficiencies": [
-    {
-      "proficiency": "prof_polymerworking"
-    },
-    {
-      "proficiency": "prof_closures_waterproofing"
-    }
+    { "proficiency": "prof_polymerworking" },
+    { "proficiency": "prof_closures_waterproofing" }
   ]
 }
