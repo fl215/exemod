@@ -1,0 +1,23 @@
+{
+  "id": "survivor_power_armor_chest_piece_light_enabled",
+  "type": "ITEM",
+  "copy-from": "survivor_power_armor_chest_piece_light",
+  "subtypes": [
+    "ARMOR", "TOOL"
+  ],
+  "category": "armor",
+  "name": {
+    "str": "light power armor chest piece (on)"
+  },
+  "extend": { "flags": [ "ELECTRIC_IMMUNE", "ACID_IMMUNE" ] },
+  "use_action": [ 
+    {
+      "ammo_scale": 0,
+      "target": "survivor_power_armor_chest_piece_light",
+      "msg": "You deactivate the chest's powered protection.",
+      "menu_text": "Turn off",
+      "type": "transform"
+    }
+  ],
+  "power_draw": "10 mW"
+}

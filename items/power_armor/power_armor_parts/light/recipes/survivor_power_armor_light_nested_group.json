@@ -1,0 +1,20 @@
+{
+  "id": "survivor_power_armor_light_pieces",
+  "type": "nested_category",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_SUIT",
+  "name": "survivor power armor light pieces",
+  "description": "Light pieces for the survivor power armor.",
+  "skill_used": "fabrication",
+  "nested_category_data": [
+    "survivor_power_armor_chest_piece_light",
+    "survivor_power_armor_waist_piece_light",
+    "survivor_power_armor_helmet_light",
+    "survivor_power_armor_left_arm_light",
+    "survivor_power_armor_right_arm_light",
+    "survivor_power_armor_left_leg_light",
+    "survivor_power_armor_right_leg_light"
+  ],
+  "difficulty": 1
+}

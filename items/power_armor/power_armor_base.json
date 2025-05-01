@@ -2,22 +2,20 @@
   "id": "power_armor_base",
   "type": "ITEM",
   "subtypes": [
-    "ARMOR"
+    "ARMOR", "TOOL"
   ],
   "category": "armor",
   "looks_like": "xedra_enviro_suit",
   "name": {
     "str": "survivor power armor"
   },
+  "tool_ammo": "battery",
   "description": "A custom-made full-body kevlar suit with many attachments for power armor parts made separately.",
   "weight": "200 g",
   "volume": "250 ml",
   "price": "100 USD",
   "symbol": "[",
-  "material": [
-    "kevlar",
-    "plastic"
-  ],
+  "material": [ "kevlar", "plastic" ],
   "color": "green",
   "warmth": 5,
   "flags": [
@@ -27,8 +25,8 @@
     "VARSIZE",
     "RAINPROOF",
     "SOFT",
-    "USE_UPS",
-    "ELECTRONIC"
+    "ELECTRONIC",
+    "IS_UPS"
   ],
   "material_thickness": 0.5,
   "pocket_data": [
@@ -40,9 +38,7 @@
       "max_contains_weight": "11 kg",
       "moves": 800,
       "description": "Left arm pieces attachment.",
-      "flag_restriction": [
-        "POWER_ARMOR_LARM"
-      ]
+      "flag_restriction": [ "POWER_ARMOR_LARM" ]
     },
     {
       "pocket_type": "CONTAINER",
@@ -52,9 +48,7 @@
       "max_contains_weight": "11 kg",
       "moves": 800,
       "description": "Right arm pieces attachment.",
-      "flag_restriction": [
-        "POWER_ARMOR_RARM"
-      ]
+      "flag_restriction": [ "POWER_ARMOR_RARM" ]
     },
     {
       "pocket_type": "CONTAINER",
@@ -64,9 +58,7 @@
       "max_contains_weight": "11 kg",
       "moves": 800,
       "description": "Left leg pieces attachment.",
-      "flag_restriction": [
-        "POWER_ARMOR_LLEG"
-      ]
+      "flag_restriction": [ "POWER_ARMOR_LLEG" ]
     },
     {
       "pocket_type": "CONTAINER",
@@ -76,9 +68,7 @@
       "max_contains_weight": "11 kg",
       "moves": 800,
       "description": "Right leg pieces attachment.",
-      "flag_restriction": [
-        "POWER_ARMOR_RLEG"
-      ]
+      "flag_restriction": [ "POWER_ARMOR_RLEG" ]
     },
     {
       "pocket_type": "CONTAINER",
@@ -88,9 +78,7 @@
       "max_contains_weight": "11 kg",
       "moves": 800,
       "description": "Chest piece attachment.",
-      "flag_restriction": [
-        "POWER_ARMOR_CHEST"
-      ]
+      "flag_restriction": [ "POWER_ARMOR_CHEST" ]
     },
     {
       "pocket_type": "CONTAINER",
@@ -100,9 +88,7 @@
       "max_contains_weight": "11 kg",
       "moves": 800,
       "description": "Waist piece attachment.",
-      "flag_restriction": [
-        "POWER_ARMOR_WAIST"
-      ]
+      "flag_restriction": [ "POWER_ARMOR_WAIST" ]
     },
     {
       "pocket_type": "CONTAINER",
@@ -112,9 +98,7 @@
       "max_contains_weight": "11 kg",
       "moves": 800,
       "description": "Helmet attachment.",
-      "flag_restriction": [
-        "POWER_ARMOR_HELMET"
-      ]
+      "flag_restriction": [ "POWER_ARMOR_HELMET" ]
     },
     {
       "pocket_type": "CONTAINER",
@@ -124,9 +108,7 @@
       "max_contains_weight": "30 kg",
       "moves": 1200,
       "description": "Harness attachment.",
-      "item_restriction": [
-        "survivor_vest", "robofac_robotrig", "survivor_vest_modular", "nomad_rig"
-      ]
+      "item_restriction": [ "survivor_vest", "robofac_robotrig", "survivor_vest_modular", "nomad_rig" ]
     },
     {
       "pocket_type": "CONTAINER",
@@ -136,20 +118,18 @@
       "max_item_length": "322 mm",
       "moves": 100,
       "description": "Laptop pouch.",
-      "item_restriction": [
-        "laptop"
-      ]
+      "item_restriction": [ "laptop" ]
     },
     {
-      "pocket_type": "CONTAINER",
-      "volume_encumber_modifier": 0.2,
-      "max_contains_volume": "2500 ml",
-      "max_contains_weight": "800 g",
-      "moves": 100,
-      "description": "UPS pouch.",
+      "pocket_type": "MAGAZINE_WELL",
       "flag_restriction": [
-        "IS_UPS"
-      ]
+        "BATTERY_LIGHT",
+        "BATTERY_ULTRA_LIGHT",
+        "BATTERY_MEDIUM",
+        "BATTERY_HEAVY"
+      ],
+      "rigid": true,
+      "default_magazine": "heavy_battery_cell"
     }
   ],
   "use_action": [
@@ -164,28 +144,13 @@
       "encumbrance": [ 4, 12 ],
       "coverage": 100,
       "cover_vitals": 90,
-      "covers": [
-        "torso"
-      ],
-      "layers": [
-        "OUTER",
-        "BELTED"
-      ]
+      "covers": [ "torso" ],
+      "layers": [ "OUTER", "BELTED" ]
     },
     {
       "encumbrance": [ 4, 12 ],
       "coverage": 100,
-      "covers": [
-        "arm_l",
-        "arm_r",
-        "leg_l",
-        "leg_r",
-        "hand_l",
-        "hand_r",
-        "foot_l",
-        "foot_r",
-        "head"
-      ]
+      "covers": [ "arm_l", "arm_r", "leg_l", "leg_r", "hand_l", "hand_r", "foot_l", "foot_r", "head" ]
     }
   ]
 }
