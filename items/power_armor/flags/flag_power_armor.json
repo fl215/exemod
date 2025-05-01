@@ -1,0 +1,51 @@
+[
+  {
+    "type": "json_flag",
+    "id": "POWER_ARMOR_LLEG",
+    "name": "power armor left leg pieces",
+    "info": "This can be attached to any kind of power armor.",
+    "restriction": "Needs compatible left leg pieces attachment."
+  },
+  {
+    "type": "json_flag",
+    "id": "POWER_ARMOR_RARM",
+    "name": "power armor right arm pieces",
+    "info": "This can be attached to any kind of power armor.",
+    "restriction": "Needs compatible right arm pieces attachment."
+  },
+  {
+    "type": "json_flag",
+    "id": "POWER_ARMOR_RLEG",
+    "name": "power armor right leg pieces",
+    "info": "This can be attached to any kind of power armor.",
+    "restriction": "Needs compatible right leg pieces attachment."
+  },
+  {
+    "type": "json_flag",
+    "id": "POWER_ARMOR_WAIST",
+    "name": "power armor waist piece",
+    "info": "This can be attached to any kind of power armor.",
+    "restriction": "Needs a compatible waist piece attachment."
+  },
+  {
+    "type": "json_flag",
+    "id": "POWER_ARMOR_LARM",
+    "name": "power armor left arm pieces",
+    "info": "This can be attached to any kind of power armor.",
+    "restriction": "Needs compatible left arm pieces attachment."
+  },
+  {
+    "type": "json_flag",
+    "id": "POWER_ARMOR_CHEST",
+    "name": "power armor chest piece",
+    "info": "This can be attached to any kind of power armor.",
+    "restriction": "Needs a compatible chest piece attachment."
+  },
+  {
+    "type": "json_flag",
+    "id": "POWER_ARMOR_HELMET",
+    "name": "power armor helmet piece",
+    "info": "This can be attached to any kind of power armor.",
+    "restriction": "Needs a compatible helmet attachment."
+  }
+]

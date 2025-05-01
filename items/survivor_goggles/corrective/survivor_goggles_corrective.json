@@ -1,15 +1,15 @@
 {
-  "id": "survivor_goggles_nearsighted",
+  "id": "survivor_goggles_corrective",
   "type": "ITEM",
   "subtypes": [
     "ARMOR"
   ],
   "category": "armor",
   "name": {
-    "str": "nearsighted survivor goggles",
-    "str_pl": "pairs of nearsighted survivor goggles"
+    "str": "corrective survivor goggles",
+    "str_pl": "pairs of corrective survivor goggles"
   },
-  "description": "A custom-built pair of armored goggles with tinted lenses.  Comfortable and built to last, they provide excellent protection from environmental dangers. This one has a prescription.",
+  "description": "These survivor goggles have been modified with autocorrective lenses.",
   "weight": "212 g",
   "volume": "250 ml",
   "price": "75 USD",
@@ -30,7 +30,8 @@
     "OVERSIZE",
     "VARSIZE",
     "STURDY",
-    "FIX_NEARSIGHT"
+    "FIX_NEARSIGHT",
+    "FIX_FARSIGHT"
   ],
   "armor": [
     {

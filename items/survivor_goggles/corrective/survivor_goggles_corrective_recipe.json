@@ -1,0 +1,31 @@
+{
+  "result": "survivor_goggles_corrective",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_HEAD",
+  "skill_used": "fabrication",
+  "difficulty": 1,
+  "time": "2 m",
+  "autolearn": true,
+  "using": [
+    [
+      "soldering_standard",
+      1
+    ]
+  ],
+  "components": [
+    [
+      [
+        "glasses_bifocal",
+        1
+      ]
+    ],
+    [
+      [
+        "survivor_goggles",
+        1
+      ]
+    ]
+  ]
+}

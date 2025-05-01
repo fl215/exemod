@@ -1,0 +1,60 @@
+{
+  "id": "advanced_ar_survivor_goggles_on",
+  "copy-from": "advanced_ar_survivor_goggles",
+  "type": "ITEM",
+  "subtypes": [
+    "ARMOR", "TOOL"
+  ],
+  "name": {
+    "str": "advanced AR survivor goggles (on)",
+    "str_pl": "pairs of advanced AR survivor goggles (on)"
+  },
+  "description": "These survivor goggles have AR, nightvision and infrared capabilities.",
+  "material": [
+    "hard_plastic_transp",
+    "leather_treated"
+  ],
+  "extend": { "flags": [ "NVG_GREEN" ] },
+  "use_action": [
+    "E_FILE_DEVICE",
+    "EBOOKSAVE",
+    "CAMERA",
+    "CALORIES_INTAKE_TRACKER",
+    "PORTABLE_GAME",
+    {
+      "ammo_scale": 0,
+      "target": "advanced_ar_survivor_goggles",
+      "msg": "You deactivate the goggles' enhanced night vision.",
+      "menu_text": "Turn off",
+      "type": "transform"
+    },
+    {
+      "type": "link_up",
+      "cable_length": 5,
+      "charge_rate": "30 W"
+    }
+  ],
+  "armor": [
+    {
+      "material": [
+        {
+          "type": "leather_treated",
+          "covered_by_mat": 20,
+          "thickness": 2
+        },
+        {
+          "type": "hard_plastic_transp",
+          "covered_by_mat": 100,
+          "thickness": 4
+        }
+      ],
+      "covers": [
+        "eyes"
+      ],
+      "coverage": 100,
+      "encumbrance": 20
+    }
+  ],
+  "power_draw": "375 mW",
+  "revert_to": "advanced_ar_survivor_goggles"
+}

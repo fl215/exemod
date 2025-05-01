@@ -1,0 +1,106 @@
+{
+  "id": "ar_survivor_goggles_lit",
+  "type": "ITEM",
+  "subtypes": [
+    "ARMOR", "TOOL"
+  ],
+  "category": "armor",
+  "name": {
+    "str": "AR survivor goggles (lit)",
+    "str_pl": "pairs of AR survivor goggles (lit)"
+  },
+  "charges_per_use": 1,
+  "etransfer_rate": "50 MB",
+  "e_port": "phone",
+  "tool_ammo": [
+    "battery"
+  ],
+  "description": "These survivor goggles have AR capabilities built into them by a masterful (and potentially handsome) survivor.",
+  "weight": "212 g",
+  "volume": "250 ml",
+  "price": "75 USD",
+  "price_postapoc": "30 USD",
+  "material": [
+    "hard_plastic_transp",
+    "leather_treated"
+  ],
+  "symbol": "[",
+  "looks_like": "glasses_bal",
+  "color": "dark_gray",
+  "warmth": 5,
+  "material_thickness": 4,
+  "environmental_protection": 15,
+  "use_action": [
+    "E_FILE_DEVICE",
+    "EBOOKSAVE",
+    "CAMERA",
+    "CALORIES_INTAKE_TRACKER",
+    "PORTABLE_GAME",
+    {
+      "target": "ar_survivor_goggles",
+      "msg": "You disable the flashlight app.",
+      "menu_text": "Turn off flashlight",
+      "ammo_scale": 0,
+      "type": "transform"
+    },
+    {
+      "type": "link_up",
+      "cable_length": 5,
+      "charge_rate": "30 W"
+    }
+  ],
+  "flags": [
+    "WATER_FRIENDLY",
+    "SUN_GLASSES",
+    "OVERSIZE",
+    "VARSIZE",
+    "STURDY",
+    "USE_UPS",
+    "CALORIES_INTAKE",
+    "ELECTRONIC",
+    "ALARMCLOCK",
+    "WATCH",
+    "LIGHT_20"
+  ],
+  "armor": [
+    {
+      "material": [
+        {
+          "type": "leather_treated",
+          "covered_by_mat": 20,
+          "thickness": 2
+        },
+        {
+          "type": "hard_plastic_transp",
+          "covered_by_mat": 100,
+          "thickness": 4
+        }
+      ],
+      "covers": [
+        "eyes"
+      ],
+      "coverage": 100,
+      "encumbrance": 25
+    }
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE_WELL",
+      "flag_restriction": [
+        "BATTERY_LIGHT",
+        "BATTERY_ULTRA_LIGHT"
+      ],
+      "default_magazine": "light_battery_cell"
+    },
+    {
+      "pocket_type": "E_FILE_STORAGE",
+      "rigid": true,
+      "max_contains_volume": "1 ml",
+      "max_contains_weight": "1 g",
+      "weight_multiplier": 0,
+      "ememory_max": "1 TB"
+    }
+  ],
+  "power_draw": "1 mW",
+  "revert_to": "ar_survivor_goggles"
+}

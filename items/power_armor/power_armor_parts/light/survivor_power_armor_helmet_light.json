@@ -1,0 +1,62 @@
+{
+  "id": "survivor_power_armor_helmet_light",
+  "type": "ITEM",
+  "subtypes": [
+    "ARMOR"
+  ],
+  "category": "armor",
+  "name": {
+    "str": "light power armor helmet piece"
+  },
+  "description": "A light helmet piece made for the custom-made survivor power armor attachments. It covers the entirety of the head, providing excellent protection.",
+  "weight": "1250 g",
+  "volume": "245 ml",
+  "longest_side": "20 cm",
+  "price": "50 USD",
+  "material": [
+    {
+      "type": "lc_steel",
+      "portion": 4
+    },
+    {
+      "type": "plastic"
+    }
+  ],
+  "symbol": "[",
+  "color": "dark_gray",
+  "looks_like": "tac_fullhelmet",
+  "material_thickness": 3,
+  "environmental_protection": 6,
+  "flags": [
+    "POWER_ARMOR_HELMET",
+    "CANT_WEAR",
+    "STURDY",
+    "NO_SALVAGE"
+  ],
+  "armor": [
+    {
+      "material": [
+        {
+          "type": "lc_steel",
+          "covered_by_mat": 100,
+          "thickness": 2
+        },
+        {
+          "type": "plastic",
+          "covered_by_mat": 100,
+          "thickness": 1
+        }
+      ],
+      "encumbrance": 5,
+      "covers": [
+        "head"
+      ],
+      "coverage": 100,
+      "cover_vitals": 90
+    }
+  ],
+  "repairs_like": "hsurvivor_jumpsuit",
+  "repairs_with": [
+    "lc_steel"
+  ]
+}

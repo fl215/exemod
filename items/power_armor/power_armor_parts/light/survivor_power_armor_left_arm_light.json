@@ -1,0 +1,80 @@
+{
+  "id": "survivor_power_armor_left_arm_light",
+  "type": "ITEM",
+  "subtypes": [
+    "ARMOR"
+  ],
+  "category": "armor",
+  "name": {
+    "str": "light power armor left arm pieces"
+  },
+  "description": "A light armored forearm, lower arm, elbow, hands and finger segment armor attachable to the custom-made survivor power armor. These pieces fit the left arm.",
+  "weight": "1450 g",
+  "volume": "280 ml",
+  "longest_side": "20 cm",
+  "price": "50 USD",
+  "material": [
+    {
+      "type": "lc_steel",
+      "portion": 4
+    },
+    {
+      "type": "plastic"
+    }
+  ],
+  "symbol": ",",
+  "color": "dark_gray",
+  "material_thickness": 3,
+  "environmental_protection": 6,
+  "flags": [
+    "POWER_ARMOR_LARM",
+    "CANT_WEAR",
+    "STURDY",
+    "NO_SALVAGE"
+  ],
+  "armor": [
+    {
+      "material": [
+        {
+          "type": "lc_steel",
+          "covered_by_mat": 100,
+          "thickness": 2
+        },
+        {
+          "type": "plastic",
+          "covered_by_mat": 100,
+          "thickness": 1
+        }
+      ],
+      "encumbrance": 5,
+      "covers": [
+        "arm_l"
+      ],
+      "coverage": 100
+    },
+    {
+      "material": [
+        {
+          "type": "lc_steel",
+          "covered_by_mat": 100,
+          "thickness": 1.5
+        },
+        {
+          "type": "plastic",
+          "covered_by_mat": 100,
+          "thickness": 1.5
+        }
+      ],
+      "encumbrance": 3,
+      "covers": [
+        "hand_l"
+      ],
+      "coverage": 100
+    }
+  ],
+  "looks_like": "lc_esbi_plate",
+  "repairs_like": "hsurvivor_jumpsuit",
+  "repairs_with": [
+    "lc_steel"
+  ]
+}
