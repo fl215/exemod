@@ -9,7 +9,7 @@
   "name": {
     "str": "light power armor left leg pieces (on)"
   },
-  "extend": { "flags": [ "ELECTRIC_IMMUNE", "ACID_IMMUNE" ] },
+  "extend": { "flags": [ "ELECTRIC_IMMUNE", "ACID_IMMUNE", "RAD_RESIST" ] },
   "use_action": [ 
     {
       "ammo_scale": 0,
