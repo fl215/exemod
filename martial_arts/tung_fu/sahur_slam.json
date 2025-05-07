@@ -1,0 +1,12 @@
+{
+  "type": "technique",
+  "id": "sahur_slam",
+  "name": "Sahur Slam",
+  "messages": [
+    "You use tung tung's powers to slam the fuck out of %s",
+    "<npcname> slams the fuck out of %s"
+  ],
+  "melee_allowed": true,
+  "knockback_dist": 15,
+  "down_dur": 8
+}

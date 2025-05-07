@@ -1,0 +1,38 @@
+{
+  "id": "molle_scabbard",
+  "type": "ITEM",
+  "subtypes": [ "ARMOR" ],
+  "name": { "str": "MOLLE scabbard" },
+  "description": "A large, adjustable sheath for holding swords and other large blades. This one is MOLLE compatible.  Activate to sheathe/draw a weapon.",
+  "weight": "1400 g",
+  "volume": "1750 ml",
+  "price": "75 USD",
+  "price_postapoc": "7 USD",
+  "material": [ "leather", "steel" ],
+  "symbol": "[",
+  "looks_like": "holster",
+  "color": "brown",
+  "sided": true,
+  "material_thickness": 1,
+  "pocket_data": [
+    {
+      "magazine_well": "1250 ml",
+      "max_contains_volume": "2 L",
+      "max_contains_weight": "4 kg",
+      "max_item_length": "100 cm",
+      "holster": true,
+      "moves": 30,
+      "flag_restriction": [ "SHEATH_SWORD" ]
+    }
+  ],
+  "use_action": { "type": "holster", "holster_prompt": "Sheath sword", "holster_msg": "You sheath your %s" },
+  "flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY", "PALS_LARGE" ],
+  "armor": [
+    {
+      "encumbrance": [ 3, 4 ],
+      "coverage": 15,
+      "covers": [ "leg_l", "leg_r" ],
+      "specifically_covers": [ "leg_hip_r", "leg_hip_l" ]
+    }
+  ]
+},

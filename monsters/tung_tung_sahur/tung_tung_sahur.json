@@ -1,0 +1,35 @@
+{
+  "id": "mon_tung_tung_sahur",
+  "type": "MONSTER",
+  "name": { "str": "tung tung sahur", "str_pl": "tung tung sahurs" },
+  "description": "Tung tung tung tung tung tung sahur!",
+  "default_faction": "factionless",
+  "species": [ "ABERRATION" ],
+  "volume": "62500 ml",
+  "weight": "0 g",
+  "hp": 920,
+  "speed": 500,
+  "symbol": "T",
+  "color": "brown",
+  "aggression": 100,
+  "morale": 100,
+  "melee_skill": 10,
+  "melee_dice": 6,
+  "melee_dice_sides": 2,
+  "melee_damage": [
+    {
+      "damage_type": "bash",
+      "amount": 8
+    }
+  ],
+  "grab_strength": 50,
+  "vision_day": 200,
+  "vision_night": 20,
+  "special_attacks": [ { "id": "slam", "cooldown": 8, "damage_max_instance": [ { "damage_type": "bash", "amount": 50 } ] }, { "id": "longswipe" }, { "id": "smash", "throw_strength": 100 } ],
+  "death_drops": "tung_tung_sahur_drops",
+  "death_function": { "corpse_type": "NO_CORPSE", "message": "Tung tung ini biasanya bersuara layakna pukulan kentungan serperiti ini tung tung tung tung tung tung ke taman kalian yang susah sahur." },
+  "flags": [ "NO_BREATHE", "SEES", "SMELLS", "HEARS", "ATTACKMON", "GRABS", "HAS_MIND", "GROUP_BASH" ],
+  "armor": {
+    "bullet": -10
+  }
+},

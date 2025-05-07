@@ -1,0 +1,6 @@
+{
+  "type": "item_group",
+  "id": "tung_tung_sahur_drops",
+  "subtype": "collection",
+  "items": ["tung_tung_bat"]
+},

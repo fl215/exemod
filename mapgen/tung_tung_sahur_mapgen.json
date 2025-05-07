@@ -1,0 +1,8 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_tung_tung_sahur",
+    "object": { "place_monster": [ { "monster": "mon_tung_tung_sahur", "x": [ 0, 23 ], "y": [ 0, 23 ], "chance": 100 } ] }
+  }
+]

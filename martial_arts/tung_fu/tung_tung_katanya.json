@@ -1,0 +1,23 @@
+{
+  "type": "technique",
+  "id": "tung_tung_katanya",
+  "name": "Tung Tung Katanya",
+  "messages": [
+    "You charge your bat with tung tung sahur power and bash %s",
+    "<npcname> bashes %s with tung tung sahur powers"
+  ],
+  "melee_allowed": true,
+  "crit_tec": true,
+  "down_dur": 3,
+  "mult_bonuses": [
+    {
+      "stat": "movecost",
+      "scale": 1.5
+    },
+    {
+      "stat": "damage",
+      "type": "bash",
+      "scale": 3
+    }
+  ]
+}

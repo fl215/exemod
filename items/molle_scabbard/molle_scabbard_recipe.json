@@ -1,0 +1,20 @@
+{
+  "result": "molle_scabbard",
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "category": "CC_ARMOR",
+  "subcategory": "CSC_ARMOR_STORAGE",
+  "skill_used": "tailor",
+  "difficulty": 5,
+  "skills_required": [ "melee", 1 ],
+  "time": "7 h",
+  "autolearn": true,
+  "using": [ [ "tailoring_leather_small", 10 ], [ "mixed_steel", 8 ], [ "clasps", 1 ], [ "adhesive", 1 ] ],
+  "proficiencies": [
+    { "proficiency": "prof_closures" },
+    { "proficiency": "prof_leatherworking_basic" },
+    { "proficiency": "prof_leatherworking" },
+    { "proficiency": "prof_armorsmithing", "required": false, "time_multiplier": 2 }
+  ],
+  "qualities": [ { "id": "HAMMER", "level": 1 } ]
+},
